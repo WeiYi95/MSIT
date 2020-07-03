@@ -2,7 +2,7 @@
 自动分词指通过计算机技术手段，将由连续汉字字符构成的符号串进行分割，显式地呈现为由词组成的句子。对于古汉语自动分词任务，考虑到现有带标注文本较少，我们通过将非参数贝叶斯模型与预训练BERT模型相结合，提出无指导多阶段迭代训练（Multi-Stage Iterative Training，MSIT）分词框架，使用大量未标注文本进行无指导训练，提升模型的泛化能力。
 
 # 配置
-python == 3.6.8
+python == 3.6.8  
 tensorflow-gpu == 1.13.1
 
 # 使用语料
@@ -27,9 +27,8 @@ python BERT_SEG.py --task_name="SEG" --do_train=False --do_eval=False --do_predi
 💾stage_*_ckpt：最优的模型参数在 best_ckpt.txt中。其中的模型参数均为最优候选。
 
 # 预计结果
-Precision: 0.92
-Recall：   0.94
-F1:        0.93
+|Precision|Recall|F1|
+|0.92|0.94|0.93|  
 
 # 参考
 模型实现请参考（If you make use of this software for research purposes, we'll appreciate citing the following）：
