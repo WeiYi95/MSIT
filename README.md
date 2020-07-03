@@ -29,7 +29,7 @@ python BERT_SEG.py --task_name="SEG" --do_train=False --do_eval=False --do_predi
 # 预计结果
 |Precision|Recall|F1|
 |---------|------|--|
-|0.92|0.94|0.93|  
+|≈0.92|≈0.94|≈0.93|  
 
 # 参考
 模型实现请参考（If you make use of this software for research purposes, we'll appreciate citing the following）：
