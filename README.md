@@ -33,11 +33,11 @@ python BERT_SEG.py --task_name="SEG" --do_train=False --do_eval=False --do_predi
 
 # 参考
 模型实现请参考（If you make use of this software for research purposes, we'll appreciate citing the following）：
+```
 俞敬松,魏一,张永伟,杨浩.基于非参数贝叶斯模型和深度学习的古文分词研究[J].中文信息学报,2020,39(6).
+```
 	
 # 相关文献
-[1] Jin Z, Tanakaishii K. Unsupervised Segmentation of Chinese Text by Use of Branching Entropy[C]. meeting of the association for computational linguistics, 2006: 428-435.
-
-[2] Magistry P, Sagot B. Unsupervized Word Segmentation: the Case for Mandarin Chinese[C]. meeting of the association for computational linguistics, 2012: 383-387.
-
+[1] Jin Z, Tanakaishii K. Unsupervised Segmentation of Chinese Text by Use of Branching Entropy[C]. meeting of the association for computational linguistics, 2006: 428-435.  
+[2] Magistry P, Sagot B. Unsupervized Word Segmentation: the Case for Mandarin Chinese[C]. meeting of the association for computational linguistics, 2012: 383-387.  
 [3] Chen M, Chang B, Pei W, et al. A Joint Model for Unsupervised Chinese Word Segmentation[C]. em-pirical methods in natural language processing, 2014: 854-863.
